@@ -54,4 +54,4 @@ const handlePopup = (status) => {
     Si el dispositivo está 'online', la API hará una llamada exitosa y la respuesta será '200'.
     Si el dispositivo está 'offline', la API fallará con la llamada y la respuesta será menor a '200'.
  */
-setInterval(() => isOnline && checkConnection(), 3000);
+setInterval(() => isOnline && checkConnection(), 3000); 
