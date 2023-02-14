@@ -32,6 +32,10 @@ body{
     visibility: visible;
 }
 
+.popup.online{
+    border-color: #23CC72;
+}
+
 .popup .icon i {
     width: 40px;
     height: 40px;
@@ -44,7 +48,11 @@ body{
     justify-content: center;
     background: #ea4d67;
 }
- 
+
+.popup.online .icon i{
+    background: #23CC72;
+}
+
 .popup .title{
     font-size: 1.2rem;
 }
@@ -65,4 +73,16 @@ body{
     padding: 9px 15px;
     border-radius: 4px;
     background: #5372F0;
+}
+
+.popup.online .reconnect{
+    background: #bfbfbf;
+    pointer-events: none;
+}
+
+@media screen and (max-width: 450px){
+    .popup{
+        width: 100%;
+        padding: 10px 15px 17px;
+    }
 }
